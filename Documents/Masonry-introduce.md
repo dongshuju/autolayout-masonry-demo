@@ -6,19 +6,19 @@
 
 <br>Masonry常用属性与NSLayoutAttrubute的对照表如下<br>
 
-|   Masonry                       |    NSAutoLayout                         |   说明            |
-|  : ----------:                     |    :---------------------:                 |    : -------:      |
-|   view.mas_left                |    NSLayoutAttributeLeft            |   左侧            |
-|   view.mas_top                |    NSLayoutAttributeTop            |   上侧            |
-|   view.mas_right              |    NSLayoutAttributeRight          |   右侧            |
-|   view.mas_bottom          |     NSLayoutAttributeBottom      |   下侧            |
-|   view.mas_leading          |     NSLayoutAttributeLeading     |   首部            |
-|   view.mas_trailing           |     NSLayoutAttributeTrailing       |   尾部            |
-|   view.mas_width             |     NSLayoutAttributeWidth         |   宽               |
-|   view.mas_height            |     NSLayoutAttributeHeight        |   高               |
-|   view.mas_centerX          |     NSLayoutAttributeCenterX     |   横向中点    |
-|   view.mas_centerY          |     NSLayoutAttributeCenterY     |   纵向中点    |
-|   view.mas_baseline         |     NSLayoutAttributeBaseline     |  文本基线     |
+   Masonry             |    NSAutoLayout                |   说明            
+   --------------------|--------------------------------|----------------
+   view.mas_left       |    NSLayoutAttributeLeft       |   左侧            
+   view.mas_top        |    NSLayoutAttributeTop        |   上侧            
+   view.mas_right      |    NSLayoutAttributeRight      |   右侧           
+   view.mas_bottom     |    NSLayoutAttributeBottom     |   下侧            
+   view.mas_leading    |    NSLayoutAttributeLeading    |   首部            
+   view.mas_trailing   |    NSLayoutAttributeTrailing   |   尾部            
+   view.mas_width      |    NSLayoutAttributeWidth      |   宽               
+   view.mas_height     |    NSLayoutAttributeHeight     |   高               
+   view.mas_centerX    |    NSLayoutAttributeCenterX    |   横向中点    
+   view.mas_centerY    |    NSLayoutAttributeCenterY    |   纵向中点    
+   view.mas_baseline   |    NSLayoutAttributeBaseline   |   文本基线     
 
 ### 使用Masonry进行Autolayout布局
 
@@ -109,10 +109,10 @@
 
 4. NSArray
 ```
-[view1 mas_makeConstraints:^(MASConstraintMaker *make) {
-make.height.equalTo(@[view1, view2]);
-make.left.equalTo(@[view1, @100, view3.right]);
-}];
+    [view1 mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.height.equalTo(@[view1, view2]);
+        make.left.equalTo(@[view1, @100, view3.right]);
+    }];
 ```
 **数组有多个不合理的值时,总是获取最小值来使用.相当于来取最小值.An array of a mixture of any of the previous types**
 
@@ -192,6 +192,7 @@ make.left.equalTo(@[view1, @100, view3.right]);
 3. `References`
 <br>也可以通过持有一个  `MASConstraint`类型的约束保持在本地,然后通过`install `和`uninstall`方法来使用和删除该约束
 <br>用起来比前两个复杂，但是灵活性很强，可以同时删除和更新约束。
+
 ```
 @property (nonatomic, strong) MASConstraint *topConstraint;
 ..

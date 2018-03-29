@@ -64,6 +64,7 @@
 		835E1CEE206C831A002C5D22 /* Autolayout-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Autolayout-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		835E1CF2206C831A002C5D22 /* Autolayout_demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Autolayout_demoUITests.m; sourceTree = "<group>"; };
 		835E1CF4206C831A002C5D22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		835E1D01206C8C33002C5D22 /* Masonry-introduce.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Masonry-introduce.md"; sourceTree = "<group>"; };
 		8BD0674528188230676A48BD /* Pods-Autolayout-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Autolayout-demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Autolayout-demo/Pods-Autolayout-demo.debug.xcconfig"; sourceTree = "<group>"; };
 		923F8BF318C5614A6B9A927B /* Pods-Autolayout-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Autolayout-demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Autolayout-demo/Pods-Autolayout-demo.release.xcconfig"; sourceTree = "<group>"; };
 		B38F4D52C6D676BE5DCD479D /* Pods-Autolayout-demoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Autolayout-demoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Autolayout-demoTests/Pods-Autolayout-demoTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -112,6 +113,7 @@
 		835E1CBC206C8319002C5D22 = {
 			isa = PBXGroup;
 			children = (
+				835E1D00206C8B99002C5D22 /* Documents */,
 				835E1CC7206C8319002C5D22 /* Autolayout-demo */,
 				835E1CE6206C831A002C5D22 /* Autolayout-demoTests */,
 				835E1CF1206C831A002C5D22 /* Autolayout-demoUITests */,
@@ -167,6 +169,14 @@
 				835E1CF4206C831A002C5D22 /* Info.plist */,
 			);
 			path = "Autolayout-demoUITests";
+			sourceTree = "<group>";
+		};
+		835E1D00206C8B99002C5D22 /* Documents */ = {
+			isa = PBXGroup;
+			children = (
+				835E1D01206C8C33002C5D22 /* Masonry-introduce.md */,
+			);
+			path = Documents;
 			sourceTree = "<group>";
 		};
 		9B921B07ADDE5049E9CADE27 /* Pods */ = {

@@ -10,15 +10,13 @@
 		189445F4B12C61675EAC79EB /* libPods-Autolayout-demoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 826B813DD41BB7B8C4F274A7 /* libPods-Autolayout-demoUITests.a */; };
 		3F6EB778123DEC4472BD8536 /* libPods-Autolayout-demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB6A682B0297CA53CAE4FBCE /* libPods-Autolayout-demo.a */; };
 		835E1CCA206C8319002C5D22 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 835E1CC9206C8319002C5D22 /* AppDelegate.m */; };
-		835E1CCD206C8319002C5D22 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 835E1CCC206C8319002C5D22 /* RootViewController.m */; };
-		835E1CD0206C8319002C5D22 /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 835E1CCF206C8319002C5D22 /* DataViewController.m */; };
-		835E1CD3206C8319002C5D22 /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 835E1CD2206C8319002C5D22 /* ModelController.m */; };
 		835E1CD6206C8319002C5D22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 835E1CD4206C8319002C5D22 /* Main.storyboard */; };
 		835E1CD8206C8319002C5D22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 835E1CD7206C8319002C5D22 /* Assets.xcassets */; };
 		835E1CDB206C8319002C5D22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 835E1CD9206C8319002C5D22 /* LaunchScreen.storyboard */; };
 		835E1CDE206C8319002C5D22 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 835E1CDD206C8319002C5D22 /* main.m */; };
 		835E1CE8206C831A002C5D22 /* Autolayout_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 835E1CE7206C831A002C5D22 /* Autolayout_demoTests.m */; };
 		835E1CF3206C831A002C5D22 /* Autolayout_demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 835E1CF2206C831A002C5D22 /* Autolayout_demoUITests.m */; };
+		835E1D04206CA18B002C5D22 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 835E1D02206CA18A002C5D22 /* ViewController.m */; };
 		93227B0A7304D3BFDB8B2F6F /* libPods-Autolayout-demoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7FE462A36251BA42F1C478B /* libPods-Autolayout-demoTests.a */; };
 /* End PBXBuildFile section */
 
@@ -47,12 +45,6 @@
 		835E1CC5206C8319002C5D22 /* Autolayout-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Autolayout-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		835E1CC8206C8319002C5D22 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		835E1CC9206C8319002C5D22 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		835E1CCB206C8319002C5D22 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
-		835E1CCC206C8319002C5D22 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		835E1CCE206C8319002C5D22 /* DataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
-		835E1CCF206C8319002C5D22 /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
-		835E1CD1206C8319002C5D22 /* ModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
-		835E1CD2206C8319002C5D22 /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
 		835E1CD5206C8319002C5D22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		835E1CD7206C8319002C5D22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		835E1CDA206C8319002C5D22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -65,6 +57,8 @@
 		835E1CF2206C831A002C5D22 /* Autolayout_demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Autolayout_demoUITests.m; sourceTree = "<group>"; };
 		835E1CF4206C831A002C5D22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		835E1D01206C8C33002C5D22 /* Masonry-introduce.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Masonry-introduce.md"; sourceTree = "<group>"; };
+		835E1D02206CA18A002C5D22 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		835E1D03206CA18A002C5D22 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8BD0674528188230676A48BD /* Pods-Autolayout-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Autolayout-demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Autolayout-demo/Pods-Autolayout-demo.debug.xcconfig"; sourceTree = "<group>"; };
 		923F8BF318C5614A6B9A927B /* Pods-Autolayout-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Autolayout-demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Autolayout-demo/Pods-Autolayout-demo.release.xcconfig"; sourceTree = "<group>"; };
 		B38F4D52C6D676BE5DCD479D /* Pods-Autolayout-demoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Autolayout-demoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Autolayout-demoTests/Pods-Autolayout-demoTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -138,12 +132,8 @@
 			children = (
 				835E1CC8206C8319002C5D22 /* AppDelegate.h */,
 				835E1CC9206C8319002C5D22 /* AppDelegate.m */,
-				835E1CCB206C8319002C5D22 /* RootViewController.h */,
-				835E1CCC206C8319002C5D22 /* RootViewController.m */,
-				835E1CCE206C8319002C5D22 /* DataViewController.h */,
-				835E1CCF206C8319002C5D22 /* DataViewController.m */,
-				835E1CD1206C8319002C5D22 /* ModelController.h */,
-				835E1CD2206C8319002C5D22 /* ModelController.m */,
+				835E1D03206CA18A002C5D22 /* ViewController.h */,
+				835E1D02206CA18A002C5D22 /* ViewController.m */,
 				835E1CD4206C8319002C5D22 /* Main.storyboard */,
 				835E1CD7206C8319002C5D22 /* Assets.xcassets */,
 				835E1CD9206C8319002C5D22 /* LaunchScreen.storyboard */,
@@ -481,10 +471,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				835E1D04206CA18B002C5D22 /* ViewController.m in Sources */,
 				835E1CDE206C8319002C5D22 /* main.m in Sources */,
-				835E1CCD206C8319002C5D22 /* RootViewController.m in Sources */,
-				835E1CD3206C8319002C5D22 /* ModelController.m in Sources */,
-				835E1CD0206C8319002C5D22 /* DataViewController.m in Sources */,
 				835E1CCA206C8319002C5D22 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

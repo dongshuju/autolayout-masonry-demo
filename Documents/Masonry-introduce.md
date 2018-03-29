@@ -50,14 +50,6 @@
     }];
 `
 
-<br> **还可以与数组NSArray进行比较:**
-`
-    [view1 mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.height.equalTo(@[view1, view2]);
-            make.left.equalTo(@[view1, @100, view3.right]);
-    }];
-`
-
 <br>__两个同级的view进行约束__
 `
     [subGreenView mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -65,9 +57,6 @@
             make.right.equalTo(subGreenView.mas_right).offset(10);
     }];
 `
-
-**数组有多个不合理的值时,总是获取最小值来使用.相当于来取最小值.**
-
 
 #### left, right, top, bottom, centerX, centerY, leading, trailing, width, height
 
@@ -118,6 +107,14 @@
     }];
 `
 
+4. NSArray
+`
+[view1 mas_makeConstraints:^(MASConstraintMaker *make) {
+make.height.equalTo(@[view1, view2]);
+make.left.equalTo(@[view1, @100, view3.right]);
+}];
+`
+**数组有多个不合理的值时,总是获取最小值来使用.相当于来取最小值.An array of a mixture of any of the previous types**
 
 
 #### edges, size, center
